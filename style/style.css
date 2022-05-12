@@ -78,7 +78,7 @@ margin-top: 0;
 
 .movie img{
     width: 100%;
-    background-image: url(/pictures/pokemon_backgound.png);
+    background-image: url(https://i.pinimg.com/originals/a1/86/a8/a186a8aff83506c70b0b307e3fb062c8.png);
     background-repeat: no-repeat;
     background-position:left center;
 }
@@ -103,7 +103,7 @@ margin-top: 0;
 }
 
 .overview{
-    background-image: url("/pictures/pockedex2.jpg");
+    background-image: url("https://w0.peakpx.com/wallpaper/75/47/HD-wallpaper-pokedex-red-pokemon.jpg");
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 90% 100%;
