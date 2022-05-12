@@ -1,7 +1,12 @@
 import {getData} from "../modules/getData.js";
 import printTargets from "../modules/printTargets.js";
 import search from "../modules/serach.js";
-const url = 'https://pokeapi.co/api/v2/pokemon/?limit=50';
+const url = 'https://pokeapi.co/api/v2/pokemon/?limit=100';
+
+const menu = document.getElementById('menu');
+menu.addEventListener('click',()=>{
+    location.reload();
+})
 
 getData(url);
 

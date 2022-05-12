@@ -20,9 +20,9 @@ const paintTargets=async(url,container)=>{
     const div = document.createElement('div');
     div.classList.add('movie');
     div.innerHTML=`
-    <img src="${url_image}" alt="">
+    <img class='imagen' src="${url_image}" alt="">
             <div class="movie-info">
-                <h3>Name : ${name}</h3>
+                <h3>Nombre : ${name}</h3>
                 <span class="green">id: ${id}</span>
             </div>
             <div class="overview">
