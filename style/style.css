@@ -27,6 +27,25 @@ header h2{
     color: #fff;
 }
 
+#menu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+#menu img{
+    width: 20%;
+    margin-right: 10px;
+
+}
+
+#menu:hover{
+    width: 35%;
+}
+
 .search{
     background-color: transparent;
     border: 2px solid  var(--primary-color);
@@ -81,9 +100,9 @@ margin-top: 0;
 }
 
 .imagen{
-    background-image: url("https://i.ibb.co/mc8PXqQ/pokemon-backgound.png");
+    background-image: url("https://i.ibb.co/ZMTtdTD/backgound-image.jpg");
     background-repeat: no-repeat;
-    background-position:left center;
+    background-position:top center;
 }
 
 .movie-info span{
@@ -117,7 +136,7 @@ margin-top: 0;
     bottom: 0;
     right: 0;
     height: 100%;
-    width: 70%;
+    width: 75%;
     transform: translateX(200%);
     transition: transform 0.3s ease-in;
 }
@@ -126,7 +145,7 @@ margin-top: 0;
 }
 
 .movie:hover .overview{
-    transform: translateX(50%);
+    transform: translateX(40%);
 }
 
 .green{
